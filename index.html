@@ -905,6 +905,42 @@ footer{background:#eaf4ec;border-top:1px solid #dceade;color:#526b58}
 .footer-brand{color:#159447}.footer-inner p{color:#617667}
 .back-top{background:#159447;color:#fff;box-shadow:0 8px 24px rgba(21,148,71,.2)}
 @media(max-width:760px){.topbar{background:rgba(255,255,255,.97)}.navlinks{background:#fff;border:1px solid #dceade;box-shadow:0 18px 38px rgba(30,90,48,.12)}.hero h1{letter-spacing:-1.4px}.plan{min-height:0}}
+
+/* SITEX readability + visible light-theme effects */
+:root{--sitex-ink:#173923;--sitex-muted:#526b59;--sitex-green:#12813d;--sitex-line:rgba(18,129,61,.22)}
+body{color:var(--sitex-ink)}
+p,.hero-copy,.section-head p,.service p,.plan-sub,.plan-list li,.plan-bottom p,.work-meta,.portfolio-info p,.founder-caption,.review-quote,.reviews-note,.step p,.faq-a p,.contact-panel p,.footer-inner p{color:var(--sitex-muted)!important}
+h1,h2,h3,h4,strong,b,.faq-q,.stat-label,.plan-title,.service h3,.portfolio-info h3,.founder-copy h3{color:#183b25}
+.hero h1,.section-head h2,.mini-promo-copy h2{ text-shadow:0 2px 0 rgba(255,255,255,.75)}
+.hero h1 .accent,.section-head h2 em,.mini-promo-copy h2 em{color:#11813c;text-shadow:0 0 22px rgba(21,148,71,.19)}
+.kicker,.plan-no,.portfolio-tag{color:#12813d!important;text-shadow:0 0 15px rgba(21,148,71,.16)}
+.topbar{border:1px solid rgba(18,129,61,.2);box-shadow:0 12px 42px rgba(22,103,49,.12),0 0 24px rgba(21,148,71,.06)}
+.navlinks a{color:#385b42}.navlinks a:hover{color:#087333;background:#e3f4e7;box-shadow:inset 0 0 0 1px rgba(21,148,71,.13)}
+.cta{box-shadow:0 8px 24px rgba(21,148,71,.2),0 0 0 1px rgba(255,255,255,.22) inset}
+.cta:hover{box-shadow:0 12px 32px rgba(21,148,71,.3),0 0 22px rgba(21,148,71,.14)}
+.cta-outline{background:#fff;border-color:rgba(18,129,61,.25);box-shadow:0 7px 20px rgba(30,90,48,.06)}
+.eyebrow,.contact-id,.plan-label,.mini-promo-chip{box-shadow:0 5px 18px rgba(21,148,71,.07)}
+.stat-card,.service,.plan,.work-card,.portfolio-card,.founder-card,.review-card,.step,.faq-item,.mini-promo-card,.contact-panel{box-shadow:0 12px 32px rgba(27,91,45,.075),0 0 0 1px rgba(255,255,255,.8) inset}
+.stat-card:hover,.service:hover,.plan:hover,.work-card:hover,.portfolio-card:hover,.review-card:hover{box-shadow:0 20px 48px rgba(27,91,45,.13),0 0 28px rgba(21,148,71,.10)}
+.stat-value{color:#12813d;text-shadow:0 0 22px rgba(21,148,71,.22)}
+.stat-icon,.service-icon{border:1px solid rgba(21,148,71,.22);box-shadow:0 0 24px rgba(21,148,71,.09)}
+.plan{border-color:rgba(18,129,61,.22)}
+.plan.featured{border:1px solid rgba(18,129,61,.5);box-shadow:0 20px 55px rgba(21,148,71,.13),0 0 35px rgba(21,148,71,.09)}
+.plan-visual{background:linear-gradient(145deg,#f7fcf8,#eaf6ed);border-color:rgba(18,129,61,.17)}
+.plan-visual::before{box-shadow:0 0 36px rgba(21,148,71,.13),inset 0 0 35px rgba(21,148,71,.07)}
+.plan-symbol{color:#12813d;text-shadow:0 0 25px rgba(21,148,71,.24)}
+.plan-btn{color:#21462d;border-color:rgba(18,129,61,.2)}
+.plan-btn:hover,.plan.featured .plan-btn{box-shadow:0 8px 24px rgba(21,148,71,.22)}
+.faq-q{background:transparent}.faq-item:hover{border-color:rgba(21,148,71,.35);box-shadow:0 12px 30px rgba(27,91,45,.09),0 0 20px rgba(21,148,71,.06)}
+.faq-plus{color:#12813d;text-shadow:0 0 12px rgba(21,148,71,.25)}
+.contact-panel{border-color:rgba(21,148,71,.26);box-shadow:0 20px 55px rgba(30,90,48,.1),0 0 38px rgba(21,148,71,.06)}
+.back-top{box-shadow:0 8px 24px rgba(21,148,71,.25),0 0 18px rgba(21,148,71,.14)}
+.float-chip{color:#176d37;border-color:rgba(21,148,71,.23);box-shadow:0 12px 30px rgba(30,90,48,.12),0 0 18px rgba(21,148,71,.07)}
+.mock-kicker,.mock-action,.mock-pill{background:#159447}
+.marquee-track b{color:#12813d;text-shadow:0 0 12px rgba(21,148,71,.2)}
+a:focus-visible,button:focus-visible{outline:3px solid #159447;outline-offset:4px}
+@media(max-width:760px){.hero-copy{font-size:15px}.section-head p{font-size:14px}.navlinks a{color:#294b33}.plan{box-shadow:0 10px 28px rgba(27,91,45,.08)}}
+@media(prefers-reduced-motion:reduce){.ambient,.art-halo,.browser,.float-chip,.marquee-track{animation:none!important}}
 </style>
 </head>
 <body>
